@@ -17,3 +17,11 @@ git commit -m "first commit"
 ทำการส่ง
 git push -u origin main
 
+เวลาดึง git
+git pull 
+git pull origin main
+
+
+git clone
+
+git clone https://github.com/username/repository-name.git
