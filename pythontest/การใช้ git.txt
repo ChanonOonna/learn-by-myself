@@ -1,0 +1,19 @@
+git remote -v 
+origin  https://github.com/ChanonOonna/learnbymyself.git (fetch)
+origin  https://github.com/ChanonOonna/learnbymyself.git (push)
+ถ้าต้องการเปลี่ยน 
+git remote remove origin 
+
+เช็คอีกรอบว่ามีอะไรไหม
+git remote -v 
+
+เพิ่ม เระ ที่ต้องการ 
+git remote add origin (ตามด้วยลิ้งgithub https://github.com/ChanonOonna/learnbymyself.git)
+
+เพิ่มไฟล์ก่อน
+git add .
+ทำการ commit โดยตั้งชื่อ "first commit"
+git commit -m "first commit"
+ทำการส่ง
+git push -u origin main
+
